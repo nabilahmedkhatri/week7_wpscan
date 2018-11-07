@@ -18,7 +18,8 @@ Time spent: **4** hours spent in total
     - Script runs when the page is loaded
   - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-includes/comment.php?rev=3230)
-1. (Required) Getting Usernames from the Login Page
+
+2. (Required) Getting Usernames from the Login Page
   - [X] Summary: Finding valid usernames from brute-forcing the login page
     - Vulnerability types: User enumeration
     - Tested in version: 4.2  
@@ -30,8 +31,9 @@ Time spent: **4** hours spent in total
     - Shows invalid username error when username is not valid
   - [X] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/blob/4.2-branch/wp-login.php)
-1. (Required) Image Title Attribute Cross Site Scripting
-  - [ ] Summary: In the image title attribute can use XSS.
+
+3. (Required) Image Title Attribute Cross Site Scripting
+  - [X] Summary: In the image title attribute can use XSS.
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.21
@@ -40,7 +42,8 @@ Time spent: **4** hours spent in total
     - Modify title attribute to malicious script
   - [X] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/c9e60dab176635d4bfaaf431c0ea891e4726d6e0)
-1. (Optional) Non-Sanitized Post Body x
+
+4. (Optional) Non-Sanitized Post Body x
   - [X] Summary: Unfiltered HTML in post body
     - Vulnerability types: XSS
     - Tested in version: 4.2
@@ -50,7 +53,8 @@ Time spent: **4** hours spent in total
     - Enter unfiltered html in post body (in this case a script alert)
   - [X] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/blob/4.2-branch/wp-includes/post-template.php)
-1. (Optional) Non Sanitized Post Title
+    
+5. (Optional) Non Sanitized Post Title
   - [X] Summary: Unfiltered HTML in post title
     - Vulnerability types: XSS
     - Tested in version: 4.2
